@@ -8,7 +8,7 @@
  Why XenosBot ?
  Xenos is my best friend on RR and he helped me alot so reason why i named the bot(s) XenosBot!
  
- -XenosBot is free to use without any warranty but it's not to sale
+ - XenosBot is free to use without any warranty but it's not to sale
  - XenosBot is open-source and i'll be grateful if someone want to help with idea(s) or coding
  - XenosBot contain actually two types of bots:
     1) Auto refil
@@ -25,8 +25,7 @@
 
 ### 3) WARNING
     Anyone who try to sell the bot or to trade with it will be denounced as a scammer
-    For users who bought it i'm soory but you got scammed
-
+    
 ### 5)Thanks to...
   - Python devs xD because i created this bot with this beautiful language
   - [pablo] for helping me with Auto refil
