@@ -22,7 +22,12 @@
  - Install a driver(firefox recommended) on your server
  - A bit knowledge on python and ubuntu system
 
-
+### Installation of the bot to the server
+  - Open the console of your server
+  - Login as root
+  - Type theses commands: `crontab -e`
+  - Scroll back and add this line: `1 * * * *   python3 /path_of_the_file/file.py`
+  - Type `CTRL + X` ==> `Y` ==> and now quit
 ### 3) WARNING
     Anyone who try to sell the bot or to trade with it will be denounced as a scammer
     
