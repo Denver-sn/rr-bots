@@ -7,8 +7,8 @@ print("Initiating AutoTraining bot")
 time.sleep(2)
 
 #Set the accounts here
-email = "YOUR_EMAIL_OR_NUMBER"
-password = "PASSWORD"
+email = "+221765056247"
+password = "Romario_2002"
 print("\nLoading Driver...")
 display = Display(visible=0, size=(1024, 768))
 display.start()
