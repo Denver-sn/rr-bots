@@ -14,11 +14,12 @@ Donate :) [![donateImg]](https://www.paypal.me/Zeus201)
     1) Auto refil
     2) Auto training
     3) Auto Work (We're working on it)
- - Xenos bot works automatically on the(your) server
+ - Xenos bot works automatically on the (your) server
 
 
 ### 2) Requirements to use this bot
  - Vps server with Ubuntu (Use google cloud it's free)
+ - install python
  - Install a driver(firefox recommended) on your server
  - A bit knowledge on python and ubuntu system
 
