@@ -1,1 +1,1 @@
-worker: python rr-bot_auto-training.py
+worker: python3 rr-bot_Auto-refil.py
