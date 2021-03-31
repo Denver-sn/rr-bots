@@ -1,7 +1,7 @@
 # rr-bots
 
-### All theses bot are open source
- [![donateImg]](https://www.paypal.me/Zeus201)
+### All theses bots are open source 
+Donate :) [![donateImg]](https://www.paypal.me/Zeus201)
  
  
 ### 1) About this bot
@@ -25,7 +25,7 @@
 ### Installation of the bot to the server
   - Open the console of your server
   - Login as root
-  - Type theses commands: `crontab -e`
+  - Type: `crontab -e`
   - Scroll back and add this line: `1 * * * *   python3 /path_of_the_file/file.py`
   - Type `CTRL + X` ==> `Y` ==> and now quit
 ### 3) WARNING
