@@ -5,6 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from pyvirtualdisplay import Display
 import os
 
+"""
 #Setup of the driver (Chromedriver)
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
@@ -12,7 +13,13 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+"""
 
+gChromeOptions = webdriver.ChromeOptions()
+gChromeOptions.add_argument("window-size=1920x1480")
+gChromeOptions.add_argument("disable-dev-shm-usage")
+driver = webdriver.Chrome(chrome_options=gChromeOptions, executable_path=ChromeDriverManager().install())
+    
 
 #Set the accounts here
 email = "+221765056247"
