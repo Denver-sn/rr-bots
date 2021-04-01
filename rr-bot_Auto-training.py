@@ -2,25 +2,22 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from pyvirtualdisplay import Display
+import os
 
-print("Initiating AutoTraining bot")
-time.sleep(2)
+#Setup of the driver (Chromedriver)
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+
+
 
 #Set the accounts here
 email = "+221765056247"
 password = "Romario_2002"
 print("\nLoading Driver...")
-display = Display(visible=0, size=(1024, 768))
-display.start()
-time.sleep(1)
-
-#Setup of the driver (Chromedriver)
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-
-driver = webdriver.Chrome(options=options)
 
 def login():
     print("Connecting to RR! ")
