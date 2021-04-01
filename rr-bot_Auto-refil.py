@@ -19,10 +19,11 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), c
 email = "+221765056247"
 password = "Romario_2002"
 print("\nLoading Driver...")
+"""
 display = Display(visible=0, size=(1024, 768))
 display.start()
 time.sleep(1)
-
+"""
 
 def login():
     print("Initiating AutoRefil bot")
