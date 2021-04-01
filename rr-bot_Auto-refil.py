@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from pyvirtualdisplay import Display
 import os
 
-"""
 #Setup of the driver (Chromedriver)
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
@@ -21,6 +20,7 @@ gChromeOptions.add_argument("disable-dev-shm-usage")
 driver = webdriver.Chrome(chrome_options=gChromeOptions, executable_path=ChromeDriverManager().install())
     
 
+"""
 #Set the accounts here
 email = "+221765056247"
 password = "Romario_2002"
