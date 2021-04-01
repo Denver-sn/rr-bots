@@ -4,6 +4,12 @@ from selenium.webdriver.common.keys import Keys
 from pyvirtualdisplay import Display
 import os
 
+#Virtual browser
+print("Starting virtual browser...")
+display = Display(visible=0, size=(1024, 768))
+display.start()
+time.sleep(2)
+
 #Setup of the driver (Chromedriver)
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
