@@ -18,10 +18,9 @@ Donate :) [![donateImg]](https://www.paypal.me/Zeus201)
   - Type: `crontab -e`
   - Scroll back and add this line: `1 * * * *   python3 /path_of_the_file/file.py`
   - Type `CTRL + X` ==> `Y` ==> and now quit
-### 3) WARNING
-    Anyone who try to sell the bot or to trade with it will be denounced as a scammer
+
     
-### 5)Thanks to...
+### 4)Thanks to...
   - Python devs xD because i created this bot with this beautiful language
   - [pablo] for helping me with Auto refil
   - [Xenos] to support me all time
