@@ -21,8 +21,8 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), c
 
 
 #Set the accounts here
-email = "+221765056247"
-password = "Romario_2002"
+email = "EMAIL_PASSWOED"
+password = "PASS"
 print("\nLoading Driver...")
 
 def login():
